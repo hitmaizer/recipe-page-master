@@ -7,6 +7,7 @@
 
 .hero--image {
     max-width: 970px;
+    margin-top: 32px;
     
 }
 
@@ -40,8 +41,8 @@
     max-width: 600px;
 }
 
-.orange {
-    color: $orange;
+.instructions--items {
+    margin-top: 32px;
 }
 
 .instructions--list {
@@ -65,16 +66,20 @@
 
 .hero--rightsection {
     box-shadow: $box-shadow;
-    padding: 57px 43px;
+    padding: 32px;
     max-height: 367px;
+    max-width: 220px;
     border-radius: 12px;
+    margin-top: 48px;
+    gap: 32px;
+    
 }
 
 .card--wrapper {
     align-items: center;
     justify-content: center;
     min-width: 150px;
-    padding: 20px;
+    
 
 }
 
@@ -104,4 +109,12 @@
 
 .item--container {
     padding: 4px;
+}
+
+.list {
+    align-self: flex-start;
+}
+
+.item--container-instructions {
+    margin: 32px 0;
 }
