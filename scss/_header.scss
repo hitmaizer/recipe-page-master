@@ -1,0 +1,30 @@
+.header--title {
+    font-family: $playfair;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+}
+
+
+.header--sub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.header--icon {
+    color: $gray;
+    transform: rotate(90deg);
+}
+
+.header--text {
+    font-family: $montserrat;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: $gray;
+    max-width: 590px;
+}
