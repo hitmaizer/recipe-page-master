@@ -1,13 +1,24 @@
 .hero--content-flex {
     display: flex;
     flex-direction: row;
-    min-width: 970px;
+    gap: 100px;
+    
+    @include respond-below(sm) {
+      
+      flex-direction: column;
+      
+    }
     justify-content: center;
 }
 
 .hero--image {
     max-width: 970px;
     margin-top: 32px;
+    border-radius: 12px;
+    @include respond-below(sm) {
+      max-width:rem(352px);
+      
+    }
     
 }
 
@@ -19,6 +30,10 @@
     line-height: 32px;
     color: $dark-gray;
     margin-top: 48px;
+    @include respond-below(sm) {
+        font-size: 18px;
+        line-height: 24px;
+    }
 }
 
 .ingredients--subtitle {
@@ -29,6 +44,10 @@
     line-height: 24px;
     color: $dark-gray;
     margin: 32px 0;
+    @include respond-below(sm) {
+        font-size: 16px;
+        line-height: 21px;
+    }
 }
 
 .ingedients--list {
@@ -62,6 +81,7 @@
     font-size: 16px;
     line-height: 150%;
     color: $lightest-gray;
+    margin-top: 48px;
 }
 
 .hero--rightsection {
@@ -72,6 +92,15 @@
     border-radius: 12px;
     margin-top: 48px;
     gap: 32px;
+    @include respond-below(sm) {
+        order: -1;
+        box-shadow: none;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding: 8px;
+        
+
+    }
     
 }
 
@@ -79,6 +108,9 @@
     align-items: center;
     justify-content: center;
     min-width: 150px;
+    @include respond-below(sm) {
+      min-width: rem(100px);
+    }
     
 
 }
@@ -91,6 +123,10 @@
     font-size: 10px;
     line-height: 12px;
     text-transform: uppercase;
+    @include respond-below(sm) {
+        font-size: rem(8px);
+        line-height: rem(10px);
+    }
 }
 
 .card--infos {
@@ -100,11 +136,18 @@
     font-size: 14px;
     line-height: 17px;
     margin-top: 4px;
+    @include respond-below(sm) {
+        font-size: rem(10px);
+        line-height: rem(12px);
+    }
     
 }
 
 .card--info {
-    min-width: 120px;
+    min-width: 100px;
+    @include respond-below(sm) {
+      min-width: rem(75px);
+    }
 }
 
 .item--container {
@@ -117,4 +160,21 @@
 
 .item--container-instructions {
     margin: 32px 0;
+}
+
+.others {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    @include respond-below(sm) {
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
+    }
+}
+
+.colored {
+    @include respond-below(sm) {
+        place-self: flex-start;
+    }
 }
