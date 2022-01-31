@@ -1,12 +1,13 @@
 .hero--content-flex {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    
     justify-content: center;
 }
 
 .hero--image {
     max-width: 970px;
+    
 }
 
 .ingredients--title {
@@ -58,4 +59,41 @@
     font-size: 16px;
     line-height: 150%;
     color: $lightest-gray;
+}
+
+.hero--rightsection {
+    box-shadow: $box-shadow;
+    padding: 57px 43px;
+    height: auto;
+}
+
+.card--wrapper {
+    align-items: center;
+    justify-content: center;
+    min-width: 150px;
+    padding: 20px;
+
+}
+
+.card--title {
+    font-family: $montserrat;
+    color: $lightest-gray;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+}
+
+.card--infos {
+    font-family: $montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    
+}
+
+.card--info {
+    min-width: 120px;
 }
