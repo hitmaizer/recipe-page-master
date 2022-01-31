@@ -32,6 +32,9 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .flex-row {
@@ -50,6 +53,14 @@
 
 .dark-gray {
   color: #333333;
+}
+
+.orange {
+  color: #F2994A;
+}
+
+.hero--section {
+  min-width: 970px;
 }
 
 .header--wrapper {
@@ -71,6 +82,7 @@
   font-weight: bold;
   font-size: 48px;
   line-height: 64px;
+  margin-top: 32px;
 }
 
 .header--sub {
@@ -103,6 +115,10 @@
   max-width: 590px;
 }
 
+.header--sub {
+  margin-top: 16px;
+}
+
 .hero--content-flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -119,6 +135,7 @@
 
 .hero--image {
   max-width: 970px;
+  margin-top: 32px;
 }
 
 .ingredients--title {
@@ -151,8 +168,8 @@
   max-width: 600px;
 }
 
-.orange {
-  color: #F2994A;
+.instructions--items {
+  margin-top: 32px;
 }
 
 .instructions--list {
@@ -177,9 +194,12 @@
 .hero--rightsection {
   -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  padding: 57px 43px;
+  padding: 32px;
   max-height: 367px;
+  max-width: 220px;
   border-radius: 12px;
+  margin-top: 48px;
+  gap: 32px;
 }
 
 .card--wrapper {
@@ -190,7 +210,6 @@
       -ms-flex-pack: center;
           justify-content: center;
   min-width: 150px;
-  padding: 20px;
 }
 
 .card--title {
@@ -218,6 +237,15 @@
 
 .item--container {
   padding: 4px;
+}
+
+.list {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.item--container-instructions {
+  margin: 32px 0;
 }
 
 footer {

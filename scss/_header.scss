@@ -11,6 +11,7 @@
     font-weight: bold;
     font-size: 48px;
     line-height: 64px;
+    margin-top: 32px;
 }
 
 
@@ -35,4 +36,8 @@
     line-height: 17px;
     color: $gray;
     max-width: 590px;
+}
+
+.header--sub {
+    margin-top: 16px;
 }
