@@ -1,0 +1,61 @@
+.hero--content-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero--image {
+    max-width: 970px;
+}
+
+.ingredients--title {
+    font-family: $playfair;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: $dark-gray;
+}
+
+.ingredients--subtitle {
+    font-family: $playfair;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: $dark-gray
+}
+
+.ingedients--list {
+    color: $dark-gray;
+    font-family: $montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    max-width: 600px;
+}
+
+.orange {
+    color: $orange;
+}
+
+.instructions--list {
+    font-family: $montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: $black;
+    max-width: 600px;
+}
+
+.source--link {
+    font-family: $montserrat;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: $lightest-gray;
+}
